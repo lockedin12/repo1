@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     // Request video processing from backend
-    socket.emit('start_video', 'C:/Users/hrushi/Downloads/videoplayback.mp4');  // Adjust this to the actual path of your video
+    socket.emit('start_video', 'C:/Users/hrushi/Desktop/SurgicalVid2Final.mp4');  // Adjust this to the actual path of your video
     
     // Receive video frames
     socket.on('video_frame', (data) => {
