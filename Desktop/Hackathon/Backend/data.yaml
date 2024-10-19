@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Glioma', 'Meningioma', 'No Tumor', 'Pituitary']
+
+roboflow:
+  workspace: hackio
+  project: mri-data-rr7ay
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hackio/mri-data-rr7ay/dataset/2
